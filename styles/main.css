@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500&family=Montserrat:wght@400;500&family=Poppins:wght@100;400;500&family=Raleway:wght@100&display=swap');
+
+
+/* title and text */
+.title{
+    font-size: 2em;
+    font-weight: bold;
+    padding: 1em 4em;
+}
+
+
+
+
+/* footer */
+*{
+    text-decoration: none;
+    padding:0;
+    margin:0;
+}
+body{
+    font-family:'montserrat' !important;
+}
+nav{
+    background: #03c6fc;
+    height:80px;
+    width:100%;
+}
+.logo{
+    color:white;
+    font-size:35px;
+    line-height:80px;
+    padding:0px;
+    font-weight: bold;
+    padding-left:50px;
+}
+nav ul{
+    float:right;
+    margin-right:20px;
+}
+ul li {
+    display:inline-block;
+    line-height:80px;
+    margin:0px;
+}
+.buttonLogin{
+    position: relative;
+    padding:5px;
+    background: transparent;
+    color:white;
+    border: white;
+    font-size: 2em;
+}
+.headerA{
+    color:white;
+    font-size:17px;
+    text-transform: uppercase;
+    padding:7px 13px;
+    border-radius: 3px;
+
+}
+.headerA:hover{
+    background: #13a1c9;
+    transition: .5s;
+}
+
+
+footer{
+    background-color: #03c6fc;
+    width: 100%;
+    bottom: 0;
+}
+
+.footerContainer{
+    width: 100%;
+    padding: 10px 10px 10px;
+}
+
+.socialIcons{
+    display:flex;
+    justify-content: center;
+}
+
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i{
+    font-size: 1.5em;
+    color:black;
+    opacity: 0.9;
+
+}
+
+.socialIcons a:hover{
+    background-color: #03c6fc;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i{
+    color:white;
+    transition: 0.5s;
+}
+
+.footerBottom{
+    background-color: white;
+    text-align: center;
+}
+
+.footerBottom p{
+    background-color: #03c6fc;
+    color:white;
+}
+
+.designer{
+    color:black;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+.placesimages{
+    object-fit: cover;
+    width: 7em;
+    height: 7em;
+    border-radius: 10%;
+}
+
+.placelist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.place{
+    display: grid;
+    justify-items: left;
+    border-radius: 5em;
+    padding: 0 2em 0;
+}
+
+.place:hover > a > img{
+    box-shadow: 0px 0px 0.3em#123c99;
+}
+
+.placetitle{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.placeinfo{
+    color: #03c6fc;
+    padding: 0px 0px 0.2em;
+}
+
+.placeinfo:hover{
+    color: #123c99;
+    text-shadow: 0px 0px 1px #123c99;
+}
+
+
+.homeimage{
+    object-fit: cover;
+    width: 100%;
+    height: 20em;
+}
+
+
+/* destination cards */
+
+.gallery {
+    width: 500px;
+    margin-left: calc((45%) / 2);   /* center */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.destinationcard {
+    display: flex;
+    object-fit: cover;
+    height: 280px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: -0.1em 0 1em rgb(0, 0, 0, 0.5);
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+    margin-left: -50px;
+    align-items: center;
+}
+
+/* apply hover to anchor tags on gallery */
+.gallery a:hover .destinationcard {
+    left: -50px;
+    transition: 0.4s ease-out;
+}
+
+/* fixes img height and width */
+.destinationcard > img {
+    object-fit: cover;
+}
+/* destination cards */
+
+
+
+/* destinos html */
+
+
+body.destinos{
+    background-image: url('./ceu.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.destinationimage{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.destinationimage2{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.destination{
+    display: flex;
+    flex-direction: row;
+    max-width: 50%;
+    margin: 40px auto;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: -0.1em 0 1em rgb(0, 0, 0, 0.5);
+}
+
+
+/* text */
+.destinationtext{
+    padding: 0 20px 20px ;
+    margin: auto 0;
+}
+
+.destinationtitle{
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 0 0 20px;
+}
+
+/* text */
+
+.button{
+    color:#03c6fc;
+    max-width: fit-content;
+    
+}
+
+.button:hover{
+    opacity: 1;
+    text-shadow: 0 0 1.3px #03c6fc;
+    font-weight: 500;
+}
+
+.titlecenter{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 1em auto;
+    max-width: fit-content;
+    align-content: center;
+    text-shadow: 0 0 1.3px #123c99;
+}
+
+
+/* lowcost */
+
+body.descontos{
+    background-image: url('./ceu2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lowcostlist{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: fit-content;
+    justify-content: center;
+}
+
+.boxitem{
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(230, 242, 250, 0.5);
+    padding: 1.3em;
+    box-shadow: -0.1em 0 1em rgb(0, 0, 0, 0.5);
+    margin: 2em;
+}
+
+.lowcostimg{
+    height: 20em;
+    width: 20em;
+    border-radius: 1em;
+    object-fit: cover;
+}
+
+
+.placename{
+    font-size: 2.3em;
+    font-weight: 700;  
+    color: #00B5FF;
+    height: fit-content;
+}
+
+.placename:hover{
+    color: #0069D2;
+}
+
+
+.prices{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.price{
+    font-size: 1.5em;
+    font-family: 'Abel', sans-serif;
+    font-style: italic;
+}
+
+.pricetag{
+    font-size: 3em;
+    font-weight: 700;
+    color: #00B5FF;
+}
+
+.pricetag:hover{
+    color: #0069D2;
+}
