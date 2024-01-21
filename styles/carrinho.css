@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    max-width: 100%;
+}
+
+.container1 {
+    width: 900px;
+    max-width: 90vw;
+    margin:auto;
+    text-align: center;
+    padding-top: 10px;
+    transform: .5s;
+}
+
+svg {
+    width: 30px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+header .icon-cart {
+    position: relative;
+}
+
+header .icon-cart span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+}
+
+.flights {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+
+.flights .item {
+    background-color: #eee;
+    padding: 15px;
+    border-radius: 10%;
+}
+
+.flights .item h2 {
+    font-weight: 500;
+    font-size: large;
+}
+
+.flights .item .price {
+    letter-spacing: 3px;
+}
+
+.flights .item button {
+    background-color:#03c6fc;
+    color:#eee;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+

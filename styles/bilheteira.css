@@ -1,0 +1,123 @@
+body {
+    padding:0px;
+    margin: 0px;
+}
+
+
+.section1{
+    background-image:url(https://c.wallhere.com/photos/3d/31/skyscrapers_beach_sky_building-1101508.jpg!d);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin:0;
+
+    /* nunca mais uso bootstrap */
+}
+.booking-form-box {
+    max-width: 350px;
+    border: 1px solid #ced4da;
+    border-radius: 5%;
+    margin-bottom: 2vh;
+    margin: auto;
+    backdrop-filter: blur(50px);
+}
+.booking-form label {
+    color:#fff;
+} 
+
+
+
+  
+.radio-btn {
+    margin: 0 20px;
+}
+
+.radio-btn .btn {
+    margin: 20px 10px 20px 0;
+    box-shadow: none;
+}
+
+.radio-btn .btn::after {
+    content: '';
+    height: 15px;
+    width: 15px;
+    top: -2px;
+    left: -1px;
+    background-color: #fff;
+    position: relative;
+    display: inline-block;
+    border: 3px solid #fff;
+    visibility: visible;
+    border-radius: 50%;
+}
+
+.radio-btn .btn:checked::after {
+    content: '';
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+.radio-btn span {
+    color:#fff;
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+.booking-form {
+    padding: 0 20px 20px;
+}
+
+.booking-form-label {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 12px;
+    color:#fff;
+}
+
+input::placeholder {
+    color:#fff !important;
+}
+
+.input-grp {
+    width: 150px;
+    display: inline-block;
+}
+
+.form-control {
+    font-size: 12px;
+    border-radius: 0;
+    color:#fff !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.select-date::-webkit-inner-spin-button,
+.select-date::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin:0;
+}
+
+.select-date::-webkkit-calender-picker-indicator {
+    background: transparent!important;
+}
+
+.custom-select {
+    color:#fff;
+    font-size: 12px;
+    border: 1px solid #ced4da!important;
+    box-shadow: none!important;
+    border-radius: 0;
+    background: transparent!important;
+}
+
+.custom-select option {
+    color:rgb(255, 255, 255);
+}
+
+
