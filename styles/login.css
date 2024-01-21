@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500&family=Poppins:wght@100;400;500&family=Raleway:wght@100&display=swap');
+:root {
+    --primary-color: #03c6fc;
+    --primary-color-dark: #13a1c9;
+    --text-dark: black;
+    --white: white;
+}
+
+body{
+    margin:0px 0px;
+    color:#000000;
+    font-family: 'Inter'; 
+    
+}
+.section1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./wallpaperImage2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+form{
+    border:1px solid #03c6fc;
+    border-radius: 30px;
+    padding: 10px 50px;
+    height: 350px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:transparent;
+    backdrop-filter: blur(100px);
+    color: #03c6fc;
+}
+form h1{
+    text-align: center;
+    font-family: 'Impact';
+    font-size: 2.5em;
+
+}
+form input[type=email]{
+    border:1px solid  #03c6fc;
+    border-radius: 30px;
+    padding:20px 45px 20px 20px;
+    font-size: 16px;
+    color:black;
+    background: transparent;
+}
+
+form input[type=password]{
+    border:1px solid  #03c6fc;
+    border-radius: 30px;
+    padding:20px 45px 20px 20px;
+    font-size: 16px;
+    color: black;
+    background: transparent;
+}
+.button1{
+    display: inline;
+    padding: 10px;
+    width:500px;
+    text-align: center;
+}
+.button1 button{
+    border-radius: 20px;
+    padding: 10px 0px;
+    width:30%;
+    cursor: pointer;
+    background: #03c6fc;
+    color:white;
+}
+.button1 input[type=button]{
+    border-radius: 20px;
+    border:1px solid  #03c6fc;
+    padding: 10px 0px;
+    width:30%;
+    cursor: pointer;
+    background-color:white;
+    color: #03c6fc;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+    justify-content: center;
+}
+.icons a{
+    text-decoration: none;
+    display: inline;
+    padding: 20px;
+    font-size: 40px;
+    color:black;
+    cursor:pointer;
+}
+.icons a:hover{
+    color: #3700ff;
+}
